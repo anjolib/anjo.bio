@@ -48,9 +48,57 @@
 }
 
 html {
-  font-size: 120%;
+  font-size: 15px;
 }
 
 body {
-  font-family: var(--font-serif);
+  width: 87.5%;
+  padding-left: 12.5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ET Book", Georgia, serif;
+  background-color: #fffff8;
+  color: #111;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+p {
+  font-size: 1.4rem;
+  width: 55%;
+  line-height: 2rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.05em;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  font-family: "Hasklig", ui-monospace, Menlo, Consolas, monospace;
+}
+
+footer p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+footer address {
+  font-style: normal;
 }
