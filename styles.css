@@ -39,9 +39,12 @@
   font-display: swap;
 }
 
-:root {
-  --font-sans: "Hanken Grotesk", system-ui, sans-serif;
-  --font-serif: "ET Book", Georgia, serif;
+@font-face {
+  font-family: "Hasklig";
+  src: url("fonts/hasklig/Hasklig-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 html {
