@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("fonts/hanken-grotesk/HankenGrotesk[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("fonts/hanken-grotesk/HankenGrotesk-Italic[wght].woff2")
+    format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ET Book";
+  src: url("fonts/et-book/etbookot-roman-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ET Book";
+  src: url("fonts/et-book/etbookot-italic-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ET Book";
+  src: url("fonts/et-book/etbookot-bold-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "Hanken Grotesk", system-ui, sans-serif;
+  --font-serif: "ET Book", Georgia, serif;
+}
+
+html {
+  font-size: 120%;
+}
+
+body {
+  font-family: var(--font-serif);
+}
