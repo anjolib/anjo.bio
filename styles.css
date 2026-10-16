@@ -78,10 +78,15 @@ p {
 }
 
 a:link,
-a:visited {
+a:visited,
+a:active {
   color: inherit;
   text-underline-offset: 0.1em;
   text-decoration-thickness: 0.05em;
+}
+
+a:hover {
+  color: #88c0d0;
 }
 
 footer {
