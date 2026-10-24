@@ -21,6 +21,26 @@ main > p {
   margin: 0 0 2.5rem;
 }
 
+form {
+  margin: 0 0 2.5rem;
+}
+
+input {
+  width: 100%;
+  font: inherit;
+  font-size: 1.4rem;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 0.3rem 0;
+}
+
+input:focus {
+  outline: none;
+  border-bottom-color: #88c0d0;
+}
+
 nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
