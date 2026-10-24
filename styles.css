@@ -89,13 +89,26 @@ a:hover {
   color: #88c0d0;
 }
 
+header,
 footer {
-  margin-top: 4rem;
-  padding-bottom: 2rem;
   font-size: 1rem;
   line-height: 1.6;
   color: #555;
   font-family: "Hasklig", ui-monospace, Menlo, Consolas, monospace;
+}
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header a[aria-current="page"] {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 footer p {
